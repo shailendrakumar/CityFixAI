@@ -31,3 +31,62 @@ Set `EXPO_PUBLIC_API_URL` to point to backend (default http://localhost:8000).
 
 No real government integration. All demo records labelled SYNTHETIC DEMO DATA. Statuses are platform-tracked community states.
 EOF
+
+## Working solution
+
+
+## Project documentation
+https://docs.google.com/document/d/1wvTuwYWwnvTb6Hrk2TEonHe-CUGKPn6-7frZPGDLYYI/edit?tab=t.0#heading=h.zfmor7fbhk9a
+
+## Landing page
+
+## Brand kit
+
+## Launch film
+
+## Explainer video
+
+## Social media posts
+
+## Social media engagement
+
+## Tools and technologies
+ * React Native
+* Expo
+* TypeScript
+* Expo Router
+* NativeWind
+* Expo SQLite
+* Expo Camera
+* Expo Image Picker
+* Expo Location
+* Expo Network
+* Python
+* FastAPI
+* Pydantic
+* Supabase
+* PostgreSQL
+* Supabase Auth
+* Supabase Storage
+* LangGraph
+* OpenAI API (Vision-capable model)
+* Scikit-learn
+* pgvector
+* OpenStreetMap
+* Leaflet
+* React Native Maps
+* Next.js
+* Tailwind CSS
+* Recharts
+* Git
+* GitHub
+* VS Code
+* Postman
+* Pytest
+* Jest
+* Expo Go
+* Expo EAS
+* Vercel
+* Render / Railway
+* Sentry
+
