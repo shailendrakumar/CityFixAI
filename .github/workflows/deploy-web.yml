@@ -1,0 +1,42 @@
+name: Deploy Web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Expo Web to Vercel
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./apps/mobile
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm ci
+      - name: Expo prebuild web
+        run: npx expo prebuild --web -c android=false --icon ./assets/images/icon.png --splash ./assets/images/splash-icon.png
+      - name: Build web
+        run: npm run build
+      - name: Install Vercel CLI
+        run: npm i -g vercel@latest
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+      - name: Configure production environment variables
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel env add production EXPO_PUBLIC_API_URL production
+          vercel env add production EXPO_PUBLIC_SUPABASE_URL production
+          vercel env add production EXPO_PUBLIC_SUPABASE_ANON_KEY production
+          vercel env add production NODE_ENV production

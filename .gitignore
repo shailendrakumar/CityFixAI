@@ -1,0 +1,65 @@
+# # dependencies
+# node_modules/
+# .packages/
+
+# # Expo
+# .expo/
+# dist/
+# web-build/
+# expo-env.d.ts
+
+# # Native
+# *.kilou64
+# *.orig.*
+# *.jks
+# *.p8
+# *.p12
+# *.key
+# *.mobileprovision
+
+# # Metro
+# .metro-health-check*
+
+# # debug
+# npm-debug.*
+# yarn-debug.*
+# yarn-error.*
+
+# # macOS
+# .DS_Store
+# *.pem
+
+# # local env files
+# .env*.local
+
+# # typescript
+# *.tsbuildinfo
+
+# # generated native folders
+# /ios
+# /android
+
+# # CI / build artifacts
+# .vercel/
+# .eas/
+# dist/
+
+# # Python
+# __pycache__/
+# *.pyc
+# *.pyo
+# venv/
+# .env
+
+# # FastAPI / Uvicorn
+# uvicorn.pid
+
+# # OpenAI
+# openai/
+
+# # Supabase
+# .gen/
+
+# # CityFixAI specific
+# uploads/
+# install-everything

@@ -1,0 +1,15 @@
+project_id = "cityfixai"
+
+[api]
+enabled = true
+
+[db]
+port = 54322
+
+[storage]
+enabled = true
+
+[auth]
+enabled = true
+site_url = "http://localhost:8081"
+additional_redirect_urls = ["http://localhost:3000"]

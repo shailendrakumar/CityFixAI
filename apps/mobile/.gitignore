@@ -1,7 +1,6 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
 # dependencies
 node_modules/
+.packages/
 
 # Expo
 .expo/
@@ -10,7 +9,7 @@ web-build/
 expo-env.d.ts
 
 # Native
-.kotlin/
+*.kilou64
 *.orig.*
 *.jks
 *.p8
@@ -39,3 +38,28 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# CI / build artifacts
+.vercel/
+.eas/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# FastAPI / Uvicorn
+uvicorn.pid
+
+# OpenAI
+openai/
+
+# Supabase
+.gen/
+
+# CityFixAI specific
+uploads/
+install-everything

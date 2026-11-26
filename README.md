@@ -160,14 +160,13 @@ https://docs.google.com/document/d/1wvTuwYWwnvTb6Hrk2TEonHe-CUGKPn6-7frZPGDLYYI/
 ## Landing page
 
 ## Brand kit
-https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=sharing
 
 ## Launch film
 
 ## Explainer video
 
 ## Social media posts
-https://www.instagram.com/reels/DgIPxw8R2Mx/ 
+
 ## Social media engagement
 
 ## Tools and technologies
@@ -209,4 +208,3 @@ https://www.instagram.com/reels/DgIPxw8R2Mx/
 * Vercel
 * Render / Railway
 * Sentry
-

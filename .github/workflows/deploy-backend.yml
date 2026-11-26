@@ -1,0 +1,55 @@
+name: Deploy Backend
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy FastAPI to Vercel
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./backend
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Install Vercel CLI
+        run: npm i -g vercel@latest
+      - name: Deploy API to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_API }}
+        run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+      - name: Configure HTTPS
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel env add production HTTPS true
+      - name: Configure CORS
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel env add production CORS_ORIGINS https://cityfixai.vercel.app production
+          vercel env add production CORS_ORIGINS https://web.cityfixai.vercel.app production
+      - name: Configure production database connection
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel env add production DATABASE_URL postgres://postgres:PASSWORD@db.cityfixai.supabase.co:5452/postgres production
+          vercel env add production SUPABASE_URL ${{ secrets.SUPABASE_URL }} production
+          vercel env add production SUPABASE_ANON_KEY ${{ secrets.SUPABASE_ANON_KEY }} production
+          vercel env add production SUPABASE_SERVICE_ROLE_KEY ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }} production
+      - name: Add health-check endpoint
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel env add production HEALTH_CHECK_ENABLED true production
