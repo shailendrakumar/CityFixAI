@@ -76,13 +76,13 @@ Every push and pull request triggers the CI pipeline:
 3. **Frontend Tests** - Runs Jest test suite
 4. **Backend Tests** - Runs pytest suite against FastAPI
 5. **Build** - Runs `expo prebuild` to prepare native code
-6. **Deploy** - Deploys to Vercel/Expo only on `main` branch merges
+6. **Deploy** - Deploys to Expo only on `main` branch merges
 
 ### Workflows
 
 - `.github/workflows/ci.yml` - Lint, typecheck, and test on all PRs
 - `.github/workflows/deploy-web.yml` - Deploy web to Vercel on `main` push
-- `.github/workflows/deploy-mobile.yml` - Build Android/iOS on `main` push
+- `.github/workflows/deploy-mobile.yml` - Build Android on `main` push
 - `.github/workflows/deploy-backend.yml` - Deploy FastAPI to Vercel on `main` push
 
 ## Deployment
@@ -105,7 +105,7 @@ Every push and pull request triggers the CI pipeline:
 
 ### Backend (FastAPI + Vercel)
 
-1. FastAPI deployed as Vercel Serverless Function
+1. FastAPI deployed as a Vercel Serverless Function
 2. HTTPS enforced via Vercel HTTPS configuration
 3. CORS configured with production allowlist
 4. Production database connection via Supabase
