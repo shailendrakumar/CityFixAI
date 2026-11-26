@@ -1,3 +1,31 @@
+
+#  👥 Night Hero – Team Members & Responsibilities
+
+#    Team Member                    Responsibilities
+
+1.    Shailendra Kumar Gupta        - Android Application Development
+                                    - Backend Development & API Integration
+                                    - Web Application Development
+                                    - Brand Kit & Branding
+                                    - Project Documentation
+                                    - Social Media Engagement & Promotion
+
+2.    Ronak Chavan                  - Explainer Video Creation
+                                    - Social Media Posts (3 Posts)
+                                    - Creative Content & Visual Storytelling
+
+3.   Gaurav Kumar                   - Application Icon Design
+                                    - App Branding & Icon Assets
+
+4.   Sathasivam                     - Landing Page Design & Development
+                                    - Website UI/UX
+
+# 🤝 Team Collaboration
+
+The Night Hero team collaborated across application development, backend engineering, branding, documentation, creative content, and web design to build and present the solution.
+Each team member contributed to a different aspect of the project, ensuring a complete product experience.
+
+
 # CityFixAI
 
 CityFixAI is a community-driven pothole and infrastructure reporting platform that leverages AI to categorize and prioritize repairs.
@@ -48,13 +76,13 @@ Every push and pull request triggers the CI pipeline:
 3. **Frontend Tests** - Runs Jest test suite
 4. **Backend Tests** - Runs pytest suite against FastAPI
 5. **Build** - Runs `expo prebuild` to prepare native code
-6. **Deploy** - Deploys to Vercel/Expo only on `main` branch merges
+6. **Deploy** - Deploys to Expo only on `main` branch merges
 
 ### Workflows
 
 - `.github/workflows/ci.yml` - Lint, typecheck, and test on all PRs
 - `.github/workflows/deploy-web.yml` - Deploy web to Vercel on `main` push
-- `.github/workflows/deploy-mobile.yml` - Build Android/iOS on `main` push
+- `.github/workflows/deploy-mobile.yml` - Build Android on `main` push
 - `.github/workflows/deploy-backend.yml` - Deploy FastAPI to Vercel on `main` push
 
 ## Deployment
@@ -77,7 +105,7 @@ Every push and pull request triggers the CI pipeline:
 
 ### Backend (FastAPI + Vercel)
 
-1. FastAPI deployed as Vercel Serverless Function
+1. FastAPI deployed as a Vercel Serverless Function
 2. HTTPS enforced via Vercel HTTPS configuration
 3. CORS configured with production allowlist
 4. Production database connection via Supabase
@@ -163,10 +191,14 @@ https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=shari
 ## Launch film
 
 ## Explainer video
+https://drive.google.com/file/d/1caWi-K_LQrhyY21VR60oHWzY71RwfXLu/view?usp=sharing
 
 ## Social media posts
+https://www.instagram.com/reels/DgIPxw8R2Mx/
 
 ## Social media engagement
+
+<img width="727" height="510" alt="Screenshot 2026-11-26 at 3 18 56 PM" src="https://github.com/user-attachments/assets/cd73e711-9f42-454f-a289-08db4ffc6bae" />
 
 ## Tools and technologies
  * React Native
