@@ -1,3 +1,51 @@
+
+👥 Night Hero – Team Members & Responsibilities
+
+#
+
+Team Member
+
+Responsibilities
+
+1
+
+Shailendra Kumar Gupta
+
+- Android Application Development
+- Backend Development & API Integration
+- Web Application Development
+- Brand Kit & Branding
+- Project Documentation
+- Social Media Engagement & Promotion
+
+2
+
+Ronak Chavan
+
+- Explainer Video Creation
+- Social Media Posts (3 Posts)
+- Creative Content & Visual Storytelling
+
+3
+
+Gaurav Kumar
+
+- Application Icon Design
+- App Branding & Icon Assets
+
+4
+
+Sathasivam
+
+- Landing Page Design & Development
+- Website UI/UX
+
+🤝 Team Collaboration
+
+The Night Hero team collaborated across application development, backend engineering, branding, documentation, creative content, and web design to build and present the solution.
+
+Each team member contributed to a different aspect of the project, ensuring a complete product experience.
+
 # CityFixAI
 
 CityFixAI is a community-driven pothole and infrastructure reporting platform that leverages AI to categorize and prioritize repairs.
