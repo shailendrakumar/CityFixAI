@@ -67,7 +67,6 @@ Every push and pull request triggers the CI pipeline:
    - `EXPO_PUBLIC_SUPABASE_URL` - Supabase project URL
    - `EXPO_PUBLIC_SUPABASE_ANON_KEY` - Supabase anonymous key
    - `NODE_ENV` - Set to `production`
-3. Web app accessible at: `https://cityfixai.vercel.app`
 
 ### Mobile (Expo EAS)
 
@@ -83,7 +82,6 @@ Every push and pull request triggers the CI pipeline:
 3. CORS configured with production allowlist
 4. Production database connection via Supabase
 5. Health check endpoint: `GET /health`
-6. API accessible at: `https://api.cityfixai.vercel.app`
 
 ## Environment Variables
 
@@ -160,6 +158,7 @@ https://docs.google.com/document/d/1wvTuwYWwnvTb6Hrk2TEonHe-CUGKPn6-7frZPGDLYYI/
 ## Landing page
 
 ## Brand kit
+https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=sharing
 
 ## Launch film
 
