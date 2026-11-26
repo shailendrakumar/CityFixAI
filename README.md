@@ -67,7 +67,6 @@ Every push and pull request triggers the CI pipeline:
    - `EXPO_PUBLIC_SUPABASE_URL` - Supabase project URL
    - `EXPO_PUBLIC_SUPABASE_ANON_KEY` - Supabase anonymous key
    - `NODE_ENV` - Set to `production`
-3. Web app accessible at: `https://cityfixai.vercel.app`
 
 ### Mobile (Expo EAS)
 
