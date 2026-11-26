@@ -163,10 +163,14 @@ https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=shari
 ## Launch film
 
 ## Explainer video
+https://drive.google.com/file/d/1caWi-K_LQrhyY21VR60oHWzY71RwfXLu/view?usp=sharing
 
 ## Social media posts
+https://www.instagram.com/reels/DgIPxw8R2Mx/
 
 ## Social media engagement
+
+<img width="727" height="510" alt="Screenshot 2026-11-26 at 3 18 56 PM" src="https://github.com/user-attachments/assets/cd73e711-9f42-454f-a289-08db4ffc6bae" />
 
 ## Tools and technologies
  * React Native
