@@ -83,7 +83,6 @@ Every push and pull request triggers the CI pipeline:
 3. CORS configured with production allowlist
 4. Production database connection via Supabase
 5. Health check endpoint: `GET /health`
-6. API accessible at: `https://api.cityfixai.vercel.app`
 
 ## Environment Variables
 
