@@ -60,8 +60,30 @@
 # # Supabase
 # .gen/
 
+# # Local env files
+.env*.local
+
+# # Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# # FastAPI / Uvicorn
+uvicorn.pid
+
+# # OpenAI
+openai/
+
+# # Supabase
+.gen/
+
 # # CityFixAI specific
-# uploads/
-# install-everything
+uploads/
+install-everything
 .vercel
 .env*
+
+# # Vercel ignored
+.vercelignore
