@@ -87,3 +87,10 @@ install-everything
 
 # # Vercel ignored
 .vercelignore
+
+# # Database files
+*.db
+cityfix.db
+
+# # Alembic version files
+backend/alembic/versions/*.py
