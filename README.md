@@ -85,21 +85,10 @@ Every push and pull request triggers the CI pipeline:
 - `.github/workflows/deploy-mobile.yml` - Build Android on `main` push
 - `.github/workflows/deploy-backend.yml` - Deploy FastAPI to Vercel on `main` push
 
-## Deployment
-
-### Web (Vercel + Expo)
-
-1. Expo Web is built and deployed to Vercel
-2. Production environment variables are configured:
-   - `EXPO_PUBLIC_API_URL` - Backend API endpoint
-   - `EXPO_PUBLIC_SUPABASE_URL` - Supabase project URL
-   - `EXPO_PUBLIC_SUPABASE_ANON_KEY` - Supabase anonymous key
-   - `NODE_ENV` - Set to `production`
 
 ### Mobile (Expo EAS)
 
 1. **Android**: `eas build -p android --profile preview` creates APK
-2. **iOS**: `eas build -p ios --profile preview` creates IPA build
 3. Builds are triggered on `main` branch pushes
 4. Artifacts are available as GitHub Actions workflow artifacts
 
@@ -110,29 +99,6 @@ Every push and pull request triggers the CI pipeline:
 3. CORS configured with production allowlist
 4. Production database connection via Supabase
 5. Health check endpoint: `GET /health`
-
-## Environment Variables
-
-### Mobile (.env.example)
-
-| Variable | Description |
-|---|---|
-| `EXPO_PUBLIC_API_URL` | Public API endpoint (safe to expose) |
-| `EXPO_PUBLIC_SUPABASE_URL` | Supabase project URL (safe to expose) |
-| `EXPO_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key (safe to expose) |
-| `NODE_ENV` | Environment: development/production |
-
-### Backend (.env.example)
-
-| Variable | Description |
-|---|---|
-| `DATABASE_URL` | Supabase PostgreSQL connection string |
-| `JWT_SECRET` | HMAC secret for JWT tokens (keep secret!) |
-| `OPENAI_API_KEY` | OpenAI API key |
-| `CORS_ORIGINS` | Allowed frontend domains |
-| `RATE_LIMIT_PER_MINUTE` | API rate limit |
-| `SUPABASE_*` | Supabase project credentials |
-| `ENVIRONMENT` | development/production |
 
 ## Security
 
