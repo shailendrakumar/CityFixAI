@@ -197,6 +197,7 @@ https://drive.google.com/file/d/1caWi-K_LQrhyY21VR60oHWzY71RwfXLu/view?usp=shari
 
 ## Social media posts
 https://www.instagram.com/reels/DgIPxw8R2Mx/
+https://x.com/cityfixai/status/2125172782325797291?a=OvmEFcrUl3byDrr2qGU&s=08
 
 ## Social media engagement
 
