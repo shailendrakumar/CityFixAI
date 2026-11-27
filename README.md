@@ -184,6 +184,7 @@ EOF
 https://docs.google.com/document/d/1wvTuwYWwnvTb6Hrk2TEonHe-CUGKPn6-7frZPGDLYYI/edit?tab=t.0#heading=h.zfmor7fbhk9a
 
 ## Landing page
+https://drive.google.com/file/d/1CvoEucU_YLf_4X7OimeCzzn8k-lbhJLe/view?usp=sharing
 
 ## Brand kit
 https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=sharing
