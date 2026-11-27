@@ -184,17 +184,21 @@ EOF
 https://docs.google.com/document/d/1wvTuwYWwnvTb6Hrk2TEonHe-CUGKPn6-7frZPGDLYYI/edit?tab=t.0#heading=h.zfmor7fbhk9a
 
 ## Landing page
+https://drive.google.com/file/d/1CvoEucU_YLf_4X7OimeCzzn8k-lbhJLe/view?usp=sharing
 
 ## Brand kit
 https://drive.google.com/file/d/1DrOVxBiE77ETrRAjUWoHAMKfaKLWFXun/view?usp=sharing
 
 ## Launch film
+https://www.instagram.com/reels/DgNWmDMRWCt/
 
 ## Explainer video
 https://drive.google.com/file/d/1caWi-K_LQrhyY21VR60oHWzY71RwfXLu/view?usp=sharing
 
 ## Social media posts
 https://www.instagram.com/reels/DgIPxw8R2Mx/
+
+https://x.com/cityfixai/status/2125172782325797291?a=OvmEFcrUl3byDrr2qGU&s=08
 
 ## Social media engagement
 

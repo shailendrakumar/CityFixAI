@@ -63,3 +63,5 @@
 # # CityFixAI specific
 # uploads/
 # install-everything
+.vercel
+.env*
