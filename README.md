@@ -168,7 +168,8 @@ https://x.com/cityfixai/status/2125172782325797291?a=OvmEFcrUl3byDrr2qGU&s=08
 
 ## Social media engagement
 
-<img width="727" height="510" alt="Screenshot 2026-11-26 at 3 18 56 PM" src="https://github.com/user-attachments/assets/cd73e711-9f42-454f-a289-08db4ffc6bae" />
+<img width="677" height="517" alt="Screenshot 2026-11-28 at 1 50 10 PM" src="https://github.com/user-attachments/assets/5e3866b0-291b-4254-a370-eede3464d3c7" />
+
 
 ## Tools and technologies
  * React Native
